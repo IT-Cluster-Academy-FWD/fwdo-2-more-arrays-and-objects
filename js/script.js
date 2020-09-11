@@ -149,3 +149,9 @@ console.log(findSmallestNumberNested(testNumbers));
 // console.log(findSmallestNumber([]));
 
 // console.log(findSmallestNumber());
+
+const $form = document.getElementById('test');
+
+$form.addEventListener('submit', (event) => {
+    event.preventDefault();
+});
